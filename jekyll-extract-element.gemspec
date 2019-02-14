@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'jekyll-extract-element'
-  s.version     = '0.0.7'
+  s.version     = '0.0.8'
   s.date        = '2017-02-02'
   s.summary     = "Extracts a particular element from HTML content"
   s.description = ""
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
     'http://rubygems.org/gems/jekyll-extract-element'
   s.license       = 'MIT'
 
-  s.add_dependency "jekyll", "~> 3.3"
-  s.add_dependency "nokogiri", "1.8.2"
+  s.add_dependency "jekyll", "~> 3.7"
+  s.add_dependency "nokogiri", "1.10.1"
 end
